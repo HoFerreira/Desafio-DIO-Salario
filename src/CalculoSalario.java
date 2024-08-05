@@ -19,7 +19,7 @@ public class CalculoSalario {
             valorImposto = 0.15F * valorSalario;
         }
 
-        //calcula e imprime a saída com 22 casas decimais
+        //calcula e imprime a saída com 2 casas decimais
         float saida = valorSalario - valorImposto + valorBeneficios;
         System.out.println(String.format("%.2f", saida));
     }
